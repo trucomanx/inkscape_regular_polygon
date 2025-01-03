@@ -4,8 +4,9 @@
     <id>org.inkscape.effect.regularpolygon</id>
     <param name="tab" type="notebook">
         <page name="Options" gui-text="Options">
-            <param name="num_sides" type="int" min="3" max="100" gui-text="Number of sides:" default="5"/>
-            <param name="side_length" type="float" min="1" max="500" gui-text="Side length (px):" default="100.0"/>
+            <param name="num_sides" type="int" min="3" max="100" gui-text="Number of sides:">5</param>
+            <param name="side_length" type="float" min="1" max="500" gui-text="Side length (px):">100.0</param>
+            <param name="init_angle"  type="float" min="0" max="360" gui-text="Initial angle (grad):">0.0</param>
         </page>
     </param>
     <effect>
